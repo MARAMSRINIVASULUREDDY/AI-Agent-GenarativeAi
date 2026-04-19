@@ -48,4 +48,4 @@ This project demonstrates how AI agents can be used in real-world scenarios.
 **How to Run**
 ```bash
 pip install -r requirements.txt
-streamlit run main.py
+streamlit run GenerativeAI.py

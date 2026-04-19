@@ -29,7 +29,7 @@ if file is not None:
     )
     chunks = text_splitter.split_text(text)
 
-    # Embeddings (FREE)
+    # Embeddings 
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
